@@ -8,7 +8,7 @@ connect-pgsql is a PostgreSQL session store backed by [node-postgres](https://gi
 
 ## Installation
 
-    npm install connect-pgsql
+Run `install.sql` script, then `npm install connect-pgsql`.
 
 ## Options
 
@@ -18,7 +18,7 @@ connect-pgsql is a PostgreSQL session store backed by [node-postgres](https://gi
 ## Usage
 
     var connect = require('connect')
-      , PqSqlStore = require('connect-pgsql')(connect)
+      , PgSqlStore = require('connect-pgsql')(connect)
       , pg = require('pg')
       , connectionString = 'pg://localhost/postgres';
 
