@@ -25,5 +25,8 @@
     "connect": "~2.12.0",
     "pg": "~2.11.1"
   },
-  "readmeFile": "README.md"
+  "readmeFile": "README.md",
+  "dependencies": {
+    "pg": "^4.1.1"
+  }
 }
